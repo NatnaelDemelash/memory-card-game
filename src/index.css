@@ -1,1 +1,9 @@
+/* ALL @import must be at the very top */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;900&display=swap');
 @import 'tailwindcss';
+
+/* After imports, your own CSS */
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #e9e9ef;
+}

@@ -1,11 +1,10 @@
 import React from 'react';
+import GameHeader from './components/GameHeader';
 
 const HomePage = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">
-        Welcome to the Memory Card Game!
-      </h1>
+      <GameHeader />
     </div>
   );
 };
