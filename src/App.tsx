@@ -1,4 +1,3 @@
-import React from 'react';
 import GameHeader from './components/GameHeader';
 
 const HomePage = () => {
